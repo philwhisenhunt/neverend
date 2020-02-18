@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 .calling{
 max-width: 1200px;
 object-fit: contain;
@@ -7,23 +10,21 @@ object-fit: contain;
     background-color: #47E4C2; 
     border: none;
     color: black;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    border-radius: 20%;
-    margin: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: .8em;;
 }
 
 #get-started:hover{
     background: rgb(57, 184, 157);
 }
 
-.photo-holder{
-    object-fit: contain;
 
-}
 
 body, html {
     height: 100%;
@@ -32,10 +33,10 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/photo-couch_2x.jpg");
+  background-image: url("images/photo-couch_2x.jpg");
 
   /* Set a specific height */
-  height: 50%;
+  height: 100%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -46,10 +47,10 @@ body, html {
 
 /* Place text in the middle of the image */
 .hero-text {
-  text-align: center;
+  text-align: left;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 40%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -57,4 +58,13 @@ body, html {
 .navigator{
     background-color: #212121; 
     color: #47E4C2;
+}
+
+.step-holder{
+    background-color: white;
+    height: 40em;
+}
+
+#how-it-works{
+    text-align: center;
 }
